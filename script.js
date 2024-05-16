@@ -1,6 +1,6 @@
 //const video = document.getElementById('video');
 const selectedImage = document.getElementById('pic.png');
-const carModel = document.getElementById('model/scene.gltf');
+const carModel = document.getElementById('scene.gltf');
 //const markerRoot = new THREE.Object3D();
 
 // Function to handle user image selection
