@@ -23,11 +23,7 @@ navigator.mediaDevices.getUserMedia({ video: true })
     console.error('Error accessing camera:', err);
   });
 
-// (Optional) Implement logic to draw the video feed onto the canvas
-// ... (code to use canvas element for potential image processing)
 
-// (Optional) Implement logic to track image features and adjust car position based on tracking data
-// ... (code to use tracking data for car positioning)
 AFRAME.registerComponent('trackImage', {
   init() {
     const hitTestOptions = {
